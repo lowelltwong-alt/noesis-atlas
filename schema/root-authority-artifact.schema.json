@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/root-authority-artifact.schema.json",
+  "title": "RootAuthorityArtifact",
+  "type": "object",
+  "required": [
+    "root_id",
+    "authority_profile",
+    "truth_mode",
+    "scope_of_authority",
+    "artifact_ref",
+    "provenance"
+  ],
+  "properties": {
+    "root_id": {
+      "type": "string"
+    },
+    "authority_profile": {
+      "type": "string"
+    },
+    "truth_mode": {
+      "type": "string"
+    },
+    "scope_of_authority": {
+      "type": "array"
+    },
+    "artifact_ref": {
+      "type": "object"
+    },
+    "hash_manifest": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/branch-governance-profile.schema.json",
+  "title": "BranchGovernanceProfile",
+  "type": "object",
+  "required": [
+    "branch_id",
+    "display_name",
+    "parent_route",
+    "status",
+    "internal_governance",
+    "noesis_overlay",
+    "review_requirements",
+    "audit_requirements"
+  ],
+  "properties": {
+    "branch_id": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "parent_route": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "internal_governance": {
+      "type": "object"
+    },
+    "noesis_overlay": {
+      "type": "object"
+    },
+    "review_requirements": {
+      "type": "object"
+    },
+    "audit_requirements": {
+      "type": "object"
+    },
+    "logos_crosswalk": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

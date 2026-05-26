@@ -1,0 +1,17 @@
+{
+  "owner_arbiter": "lowell_wong",
+  "steward_roles": [
+    "system_steward",
+    "schema_steward",
+    "logos_reviewer",
+    "branch_head"
+  ],
+  "protected_surfaces": [
+    "schema/**",
+    "governance/**",
+    "registry/**",
+    "LOGOS_COMPATIBILITY.md",
+    "LICENSE.md",
+    ".github/**"
+  ]
+}

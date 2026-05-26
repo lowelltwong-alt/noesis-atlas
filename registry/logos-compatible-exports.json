@@ -1,0 +1,10 @@
+{
+  "export_registry_version": "0.1.0",
+  "approved_exports": [],
+  "pending_exports": [],
+  "rules": [
+    "No Logos export without logos_reviewer approval",
+    "No quarantine source in Logos export",
+    "No AI religion operational claim in Logos export without high-risk review"
+  ]
+}

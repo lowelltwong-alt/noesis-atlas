@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/audit-log-event.schema.json",
+  "title": "AuditLogEvent",
+  "type": "object",
+  "required": [
+    "audit_event_id",
+    "event_type",
+    "timestamp",
+    "actor_id",
+    "actor_role",
+    "object_ids",
+    "branch_id",
+    "reason",
+    "validation_status"
+  ],
+  "properties": {
+    "audit_event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "actor_id": {
+      "type": "string"
+    },
+    "actor_role": {
+      "type": "string"
+    },
+    "object_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "branch_id": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string"
+    },
+    "reviewer_ids": {
+      "type": "array"
+    },
+    "hash_before": {
+      "type": "string"
+    },
+    "hash_after": {
+      "type": "string"
+    },
+    "rollback_plan": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

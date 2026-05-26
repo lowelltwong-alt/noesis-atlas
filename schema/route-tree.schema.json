@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis.local/schema/route-tree.schema.json",
+  "title": "NoesisRouteTree",
+  "type": "object",
+  "required": [
+    "tree_id",
+    "display_name",
+    "status",
+    "root_route",
+    "coherence_contract",
+    "nodes",
+    "edges"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "tree_id": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "stub",
+        "draft",
+        "experimental",
+        "active",
+        "deprecated"
+      ]
+    },
+    "root_route": {
+      "type": "string"
+    },
+    "coherence_contract": {
+      "type": "object",
+      "required": [
+        "internal_required",
+        "external_required",
+        "minimum_band"
+      ],
+      "properties": {
+        "internal_required": {
+          "type": "boolean"
+        },
+        "external_required": {
+          "type": "boolean"
+        },
+        "minimum_band": {
+          "type": "string",
+          "enum": [
+            "green",
+            "yellow",
+            "orange",
+            "red"
+          ]
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "node_type",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "node_type": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "profile_card_path": {
+            "type": "string"
+          },
+          "governance_path": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from",
+          "to",
+          "rel_type"
+        ],
+        "properties": {
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "rel_type": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "contributor_model": {
+      "type": "object"
+    },
+    "review_model": {
+      "type": "object"
+    }
+  }
+}

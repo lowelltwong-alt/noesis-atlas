@@ -1,0 +1,78 @@
+{
+  "registry_id": "coherence_metric_registry_v1",
+  "description": "Metric definitions used by Noesis Atlas coherence scoring. Coherence is governance evidence, not a final truth verdict.",
+  "bands": {
+    "green": {
+      "min": 0.85,
+      "max": 1.0,
+      "meaning": "coherent enough for active/curated use"
+    },
+    "yellow": {
+      "min": 0.65,
+      "max": 0.849,
+      "meaning": "experimental/useful with warnings"
+    },
+    "orange": {
+      "min": 0.45,
+      "max": 0.649,
+      "meaning": "material gaps; quarantine or revise"
+    },
+    "red": {
+      "min": 0.0,
+      "max": 0.449,
+      "meaning": "contradictory or unsupported"
+    }
+  },
+  "internal_dimensions": {
+    "authority_alignment": {
+      "weight": 0.25
+    },
+    "doctrine_order_alignment": {
+      "weight": 0.2
+    },
+    "practice_alignment": {
+      "weight": 0.15
+    },
+    "source_tier_alignment": {
+      "weight": 0.15
+    },
+    "tension_handling": {
+      "weight": 0.15
+    },
+    "no_contradiction_with_active_core": {
+      "weight": 0.1
+    }
+  },
+  "external_dimensions": {
+    "parent_child_consistency": {
+      "weight": 0.2
+    },
+    "sibling_boundary_clarity": {
+      "weight": 0.15
+    },
+    "crosswalk_clarity": {
+      "weight": 0.2
+    },
+    "provenance_integrity": {
+      "weight": 0.2
+    },
+    "machine_contract_validity": {
+      "weight": 0.15
+    },
+    "lifecycle_fit": {
+      "weight": 0.1
+    }
+  },
+  "overall_weights": {
+    "internal": 0.6,
+    "external": 0.4
+  },
+  "critical_failures": [
+    "unscoped_religion_wide_claim",
+    "lower_tier_overrides_higher_tier_without_profile_rule",
+    "ai_output_treated_as_primary_authority",
+    "logos_crosswalk_unreviewed",
+    "normative_claim_without_provenance",
+    "branch_authority_change_without_branch_head_review"
+  ]
+}

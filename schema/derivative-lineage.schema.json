@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/derivative-lineage.schema.json",
+  "title": "DerivativeLineage",
+  "type": "object",
+  "required": [
+    "lineage_id",
+    "root_ids",
+    "derivative_id",
+    "derivative_relation",
+    "distance_metrics",
+    "alignment_status"
+  ],
+  "properties": {
+    "lineage_id": {
+      "type": "string"
+    },
+    "root_ids": {
+      "type": "array"
+    },
+    "derivative_id": {
+      "type": "string"
+    },
+    "derivative_relation": {
+      "type": "string"
+    },
+    "distance_metrics": {
+      "type": "object"
+    },
+    "alignment_status": {
+      "type": "string"
+    },
+    "source_independence": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

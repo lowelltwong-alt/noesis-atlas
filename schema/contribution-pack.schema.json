@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/contribution-pack.schema.json",
+  "title": "ContributionPack",
+  "type": "object",
+  "required": [
+    "contribution_id",
+    "branch_id",
+    "change_type",
+    "scope",
+    "summary",
+    "files_changed",
+    "evidence",
+    "provenance",
+    "review_requested"
+  ],
+  "properties": {
+    "contribution_id": {
+      "type": "string"
+    },
+    "branch_id": {
+      "type": "string"
+    },
+    "change_type": {
+      "type": "string",
+      "enum": [
+        "add",
+        "revise",
+        "split",
+        "merge",
+        "remap",
+        "reinterpret",
+        "promote",
+        "downgrade",
+        "deprecate",
+        "remove"
+      ]
+    },
+    "scope": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "files_changed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "review_requested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "logos_impact": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

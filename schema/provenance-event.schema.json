@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/provenance-event.schema.json",
+  "title": "ProvenanceEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "timestamp",
+    "agent",
+    "activity",
+    "input_artifact_ids",
+    "output_artifact_ids"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "agent": {
+      "type": "object",
+      "required": [
+        "agent_id",
+        "agent_type"
+      ]
+    },
+    "activity": {
+      "type": "string"
+    },
+    "input_artifact_ids": {
+      "type": "array"
+    },
+    "output_artifact_ids": {
+      "type": "array"
+    },
+    "model_metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

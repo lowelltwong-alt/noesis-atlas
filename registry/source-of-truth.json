@@ -1,0 +1,19 @@
+{
+  "registry_version": "0.1.0",
+  "source_precedence": [
+    "schema",
+    "governance",
+    "registry",
+    "data/core",
+    "data/curated",
+    "branches/*/curated",
+    "data/community",
+    "data/quarantine"
+  ],
+  "rules": [
+    "governance files define process, not branch truth",
+    "branch profile cards define branch reasoning configuration",
+    "root authority artifacts define branch-scoped roots",
+    "audit logs record decisions but do not define truth"
+  ]
+}

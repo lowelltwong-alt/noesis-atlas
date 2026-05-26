@@ -1,0 +1,37 @@
+{
+  "registry_id": "route_tree_registry_v1",
+  "trees": [
+    {
+      "tree_id": "route_tree.christianity.v1",
+      "path": "branches/christianity/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.judaism.v1",
+      "path": "branches/judaism/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.islam.v1",
+      "path": "branches/islam/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.hinduism.v1",
+      "path": "branches/hinduism/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.buddhism.v1",
+      "path": "branches/buddhism/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.secular_naturalism.v1",
+      "path": "branches/secular-naturalism/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.ai_religion.v1",
+      "path": "branches/ai-religion/route-tree.yaml"
+    },
+    {
+      "tree_id": "route_tree.math_formal_systems.v1",
+      "path": "branches/math-formal-systems/route-tree.yaml"
+    }
+  ]
+}

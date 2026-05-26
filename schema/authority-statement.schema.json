@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/authority-statement.schema.json",
+  "title": "AuthorityStatement",
+  "type": "object",
+  "required": [
+    "statement_id",
+    "branch_id",
+    "issuer",
+    "authority_type",
+    "scope",
+    "claim",
+    "source_refs",
+    "provenance"
+  ],
+  "properties": {
+    "statement_id": {
+      "type": "string"
+    },
+    "branch_id": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "authority_type": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "source_refs": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

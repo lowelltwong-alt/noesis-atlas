@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/logos-crosswalk.schema.json",
+  "title": "LogosCrosswalk",
+  "type": "object",
+  "required": [
+    "crosswalk_id",
+    "source_branch_id",
+    "source_object_id",
+    "logos_status",
+    "theological_issue",
+    "governance_translation",
+    "review",
+    "audit_event_id"
+  ],
+  "properties": {
+    "crosswalk_id": {
+      "type": "string"
+    },
+    "source_branch_id": {
+      "type": "string"
+    },
+    "source_object_id": {
+      "type": "string"
+    },
+    "logos_status": {
+      "type": "string",
+      "enum": [
+        "compatible_reference",
+        "public_reason_bridge",
+        "contrastive_bridge",
+        "boundary_case",
+        "rival_authority",
+        "not_for_logos"
+      ]
+    },
+    "theological_issue": {
+      "type": "array"
+    },
+    "governance_translation": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "audit_event_id": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

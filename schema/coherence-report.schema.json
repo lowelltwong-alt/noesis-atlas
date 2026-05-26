@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis.local/schema/coherence-report.schema.json",
+  "title": "CoherenceReport",
+  "type": "object",
+  "required": [
+    "report_id",
+    "target_id",
+    "target_type",
+    "internal",
+    "external",
+    "overall_score",
+    "band",
+    "blocking_failures",
+    "warnings",
+    "review_required",
+    "recommended_lifecycle_state",
+    "audit"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "report_id": {
+      "type": "string"
+    },
+    "target_id": {
+      "type": "string"
+    },
+    "target_type": {
+      "type": "string",
+      "enum": [
+        "branch",
+        "subbranch",
+        "route_tree",
+        "profile_card",
+        "claim",
+        "crosswalk",
+        "contribution_pack"
+      ]
+    },
+    "internal": {
+      "type": "object",
+      "required": [
+        "score",
+        "dimensions"
+      ],
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "external": {
+      "type": "object",
+      "required": [
+        "score",
+        "dimensions"
+      ],
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "band": {
+      "type": "string",
+      "enum": [
+        "green",
+        "yellow",
+        "orange",
+        "red"
+      ]
+    },
+    "blocking_failures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_lifecycle_state": {
+      "type": "string",
+      "enum": [
+        "proposed",
+        "experimental",
+        "active",
+        "deprecated",
+        "quarantine",
+        "rejected"
+      ]
+    },
+    "audit": {
+      "type": "object",
+      "required": [
+        "created_at",
+        "created_by",
+        "method"
+      ],
+      "properties": {
+        "created_at": {
+          "type": "string"
+        },
+        "created_by": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "source_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

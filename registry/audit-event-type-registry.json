@@ -1,0 +1,17 @@
+{
+  "event_types": [
+    "node_added",
+    "node_revised",
+    "relationship_added",
+    "profile_changed",
+    "branch_governance_changed",
+    "promoted",
+    "downgraded",
+    "quarantined",
+    "deprecated",
+    "removed_tombstone",
+    "logos_export_generated",
+    "release_exported",
+    "reviewer_conflict_declared"
+  ]
+}

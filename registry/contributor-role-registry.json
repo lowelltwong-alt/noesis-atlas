@@ -1,0 +1,14 @@
+{
+  "roles": [
+    "contributor",
+    "sub_builder",
+    "branch_reviewer",
+    "branch_head",
+    "steward",
+    "logos_reviewer",
+    "owner_arbiter",
+    "ai_ingestion_agent"
+  ],
+  "self_approval_allowed": false,
+  "ai_promotion_allowed": false
+}

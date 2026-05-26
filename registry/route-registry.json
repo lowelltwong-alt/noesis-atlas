@@ -1,0 +1,39 @@
+{
+  "routes": [
+    {
+      "route_id": "logos_bridge",
+      "path": "branches/logos-bridge",
+      "status": "adapter_only"
+    },
+    {
+      "route_id": "religion.christianity",
+      "path": "branches/christianity",
+      "status": "stub"
+    },
+    {
+      "route_id": "religion.judaism",
+      "path": "branches/judaism",
+      "status": "stub"
+    },
+    {
+      "route_id": "religion.islam",
+      "path": "branches/islam",
+      "status": "stub"
+    },
+    {
+      "route_id": "religion.hinduism.vedanta",
+      "path": "branches/hinduism/vedanta",
+      "status": "stub"
+    },
+    {
+      "route_id": "worldview.secular_naturalism",
+      "path": "branches/secular-naturalism",
+      "status": "starter"
+    },
+    {
+      "route_id": "synthetic.ai_religion",
+      "path": "branches/ai-religion",
+      "status": "restricted_study"
+    }
+  ]
+}

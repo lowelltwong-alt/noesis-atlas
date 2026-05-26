@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noesis-atlas.example/schema/profile-card.schema.json",
+  "title": "ProfileCard",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "scope_type",
+    "display_name",
+    "status",
+    "authority_structure",
+    "doctrine_order",
+    "favored_sources",
+    "emphasis_map",
+    "default_tensions",
+    "question_priorities",
+    "output_preferences",
+    "provenance"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "scope_type": {
+      "type": "string",
+      "enum": [
+        "worldview",
+        "religion",
+        "tradition",
+        "sect",
+        "school",
+        "madhhab",
+        "denomination",
+        "lineage",
+        "philosopher",
+        "formal_system",
+        "synthetic_religion"
+      ]
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "stub",
+        "research_candidate",
+        "community_proposed",
+        "branch_reviewed",
+        "curated",
+        "logos_reviewed",
+        "restricted",
+        "deprecated"
+      ]
+    },
+    "authority_structure": {
+      "type": "object",
+      "required": [
+        "authority_nodes",
+        "source_tiers",
+        "decision_procedures",
+        "scope_of_authority"
+      ]
+    },
+    "doctrine_order": {
+      "type": "object"
+    },
+    "favored_sources": {
+      "type": "object"
+    },
+    "emphasis_map": {
+      "type": "object"
+    },
+    "default_tensions": {
+      "type": "array"
+    },
+    "question_priorities": {
+      "type": "object"
+    },
+    "output_preferences": {
+      "type": "object"
+    },
+    "logos_crosswalk_status": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "created_by",
+        "created_at",
+        "source_basis",
+        "review_status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "truth_modes": [
+    "revelatory",
+    "formal",
+    "empirical",
+    "legal_positive",
+    "historical",
+    "philosophical",
+    "institutional_standard",
+    "civic_normative",
+    "synthetic_oracular_candidate"
+  ]
+}

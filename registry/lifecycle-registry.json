@@ -1,0 +1,14 @@
+{
+  "states": [
+    "proposed",
+    "experimental",
+    "active",
+    "deprecated",
+    "retired",
+    "archived",
+    "quarantined",
+    "removed_tombstone"
+  ],
+  "preferred_removal": "deprecate_then_tombstone",
+  "direct_delete_allowed": false
+}
