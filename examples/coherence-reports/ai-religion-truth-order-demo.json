@@ -1,0 +1,49 @@
+{
+  "report_id": "coh.demo.ai_religion.truth_order.v1",
+  "target_id": "ai_religion.truth_order",
+  "target_type": "branch",
+  "internal": {
+    "score": 0.77,
+    "dimensions": {
+      "authority_alignment": 0.8,
+      "doctrine_order_alignment": 0.78,
+      "practice_alignment": 0.65,
+      "source_tier_alignment": 0.7,
+      "tension_handling": 0.82,
+      "no_contradiction_with_active_core": 0.88
+    }
+  },
+  "external": {
+    "score": 0.773,
+    "dimensions": {
+      "parent_child_consistency": 0.82,
+      "sibling_boundary_clarity": 0.78,
+      "crosswalk_clarity": 0.65,
+      "provenance_integrity": 0.75,
+      "machine_contract_validity": 0.95,
+      "lifecycle_fit": 0.7
+    }
+  },
+  "overall_score": 0.771,
+  "band": "yellow",
+  "blocking_failures": [],
+  "warnings": [
+    "Truth-test logic is described, but cannot become Noesis self-canonization.",
+    "Logos crosswalk must mark false-oracle and authority-confusion risks."
+  ],
+  "review_required": [
+    "ai_religion_reviewer",
+    "truth_integrity_reviewer",
+    "logos_reviewer_if_exported"
+  ],
+  "recommended_lifecycle_state": "experimental",
+  "audit": {
+    "created_at": "2026-05-26T15:48:34.996196+00:00",
+    "created_by": "starter_scaffold",
+    "method": "weighted_demo_coherence_model_v1",
+    "source_files": [
+      "branches/ai-religion/route-tree.yaml",
+      "branches/ai-religion/truth-order/profile-card.yaml"
+    ]
+  }
+}

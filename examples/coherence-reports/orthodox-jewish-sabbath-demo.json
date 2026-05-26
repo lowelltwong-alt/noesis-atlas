@@ -1,0 +1,49 @@
+{
+  "report_id": "coh.demo.orthodox_judaism.sabbath.v1",
+  "target_id": "judaism.governance.sabbath",
+  "target_type": "branch",
+  "internal": {
+    "score": 0.8,
+    "dimensions": {
+      "authority_alignment": 0.85,
+      "doctrine_order_alignment": 0.8,
+      "practice_alignment": 0.75,
+      "source_tier_alignment": 0.8,
+      "tension_handling": 0.7,
+      "no_contradiction_with_active_core": 0.9
+    }
+  },
+  "external": {
+    "score": 0.703,
+    "dimensions": {
+      "parent_child_consistency": 0.75,
+      "sibling_boundary_clarity": 0.6,
+      "crosswalk_clarity": 0.55,
+      "provenance_integrity": 0.7,
+      "machine_contract_validity": 0.95,
+      "lifecycle_fit": 0.7
+    }
+  },
+  "overall_score": 0.761,
+  "band": "yellow",
+  "blocking_failures": [],
+  "warnings": [
+    "Good internal structure, but external branch scoping must avoid representing all Judaism.",
+    "Needs more branch-head-approved source tiers before active use."
+  ],
+  "review_required": [
+    "orthodox_judaism_branch_head",
+    "halakhic_domain_reviewer",
+    "noesis_steward"
+  ],
+  "recommended_lifecycle_state": "experimental",
+  "audit": {
+    "created_at": "2026-05-26T15:48:34.996196+00:00",
+    "created_by": "starter_scaffold",
+    "method": "weighted_demo_coherence_model_v1",
+    "source_files": [
+      "branches/judaism/route-tree.yaml",
+      "branches/judaism/orthodox/profile-card.yaml"
+    ]
+  }
+}
