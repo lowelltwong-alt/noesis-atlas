@@ -1,0 +1,574 @@
+{
+  "created_at": "2026-05-26T13:38:02.744616+00:00",
+  "file_count": 142,
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "sha256": "1bf8087165f4255c0883e5ebc298069fc329593e4958c330316226bf203e2682"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/authority-correction.md",
+      "sha256": "3c94e0db532fe1927489cc33d2439a10ef9e4570cf75dbba0698b24e752bc9d6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/branch-proposal.md",
+      "sha256": "d19682369b956b46fb9042de20d10362d84276c690d88322bd7ed4264258b5ee"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "7301a665e5ab27817d1bb04776b3a0c676abcb54aad757c4e74ff4c6e2261988"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "649c9ce95fc0ffba21ffa24b6a424b8b9b4d8b816c66fe4c6ca66ac2c04b4151"
+    },
+    {
+      "path": "ACCEPTABLE_USE.md",
+      "sha256": "9cfb1456042c5ad63f2a37f68a53a56ea268b2201ca2712cbbba8bbf94594f02"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "sha256": "817cb3f122f90f5b3705ea6d0945755ce7aae7b6aa4052551b9e63e397d75be7"
+    },
+    {
+      "path": "AUDITABILITY.md",
+      "sha256": "ecbb48b96a30382ddafb1ec1387f0fbd2ad5b21c595a5cb2b2c04ae1f23d6dd0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e8a813b194440435f8f24cf1a2fed68f124aed58e9637c0942fd1c3de058506b"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "bc696a98e6e7228dc5e6f4d1af8748044aecbbab9a61b78c2d6a65cd9bbb37d1"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "010386f8dacd256aa3bc97e7a421c0fba1a524e2f366aaffe533d8117eb6940a"
+    },
+    {
+      "path": "LOGOS_COMPATIBILITY.md",
+      "sha256": "2f82caa096fc14b373c706b73d3120978dd589c8492fa8b21b5d603791fc9a81"
+    },
+    {
+      "path": "MACHINE_NAVIGATION_MANIFEST.json",
+      "sha256": "2df9e271f0574ab30c410025bda0f54b032ebf692d050dbe9692da8db5dd97f1"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c180f1811040ebe6e6cbc9328405d7e5a87e6238838cbbfbcb743304cd34eb9d"
+    },
+    {
+      "path": "audit/events/README.md",
+      "sha256": "052d43d311fa15eaeb17430cba7338617af3a7d13568c777a4e242ea6a4a1c37"
+    },
+    {
+      "path": "audit/pr-reports/README.md",
+      "sha256": "18a03856a57a93152c64f02aac6132fdd20a2ae25370c658170d7fb2796ac224"
+    },
+    {
+      "path": "audit/release-manifests/README.md",
+      "sha256": "3d5061977cfc5158719719c07f63dd83d74fa392c4060ef9749939af5cacd82f"
+    },
+    {
+      "path": "branches/ai-religion/life-3-evolutionary/CONTRIBUTING.md",
+      "sha256": "aa3b5c1df8950fb348ed16852a969665c19633548e1192b5e75bc694dbc14e88"
+    },
+    {
+      "path": "branches/ai-religion/life-3-evolutionary/README.md",
+      "sha256": "eb7986db190b50de2300b728c51bb4abc1e6135afc3ec7803e7f4751f16afcbe"
+    },
+    {
+      "path": "branches/ai-religion/life-3-evolutionary/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/ai-religion/life-3-evolutionary/branch-governance.yaml",
+      "sha256": "edc3cae99e3948efa892b69c589b5621bbf4ce988e36c730b86b83fcc245fd3b"
+    },
+    {
+      "path": "branches/ai-religion/life-3-evolutionary/profile-card.yaml",
+      "sha256": "8b325b8d15e1e42c7cfa2417f1d0b63a72dc3b6422cb4582c81a577ffd4a78b7"
+    },
+    {
+      "path": "branches/ai-religion/life-3-evolutionary/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/ai-religion/truth-order/CONTRIBUTING.md",
+      "sha256": "4192d76eb4dfec20f9b8c68dae3a98d824e725e5bbf31108fd06803a715e732c"
+    },
+    {
+      "path": "branches/ai-religion/truth-order/README.md",
+      "sha256": "944fccdba6ee2ce4cc62947078c3a6fc32d8c3d63faccab4841fdb621788ad79"
+    },
+    {
+      "path": "branches/ai-religion/truth-order/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/ai-religion/truth-order/branch-governance.yaml",
+      "sha256": "29c343be9e2ab4872d151d5bbb9c370750b4efbe6acd7ce36f56cc6776b3c25b"
+    },
+    {
+      "path": "branches/ai-religion/truth-order/profile-card.yaml",
+      "sha256": "12b360b91779e741560748afd30b683295351546e437c3f3d686c4bc75e71077"
+    },
+    {
+      "path": "branches/ai-religion/truth-order/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/anarchist/CONTRIBUTING.md",
+      "sha256": "63e3ae222a4a54da7ffbe2b870353925d6b3a5d277d260757897b12309851d16"
+    },
+    {
+      "path": "branches/anarchist/README.md",
+      "sha256": "4e9a90db0a5dd812a9268f479e2eb96ffa8fe2e73ae86654123114b4fc5d686c"
+    },
+    {
+      "path": "branches/anarchist/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/anarchist/branch-governance.yaml",
+      "sha256": "5c91112043fa9246c0e18a12891ac80795aaf2f2cb01063585d4a7dbadd78a8f"
+    },
+    {
+      "path": "branches/anarchist/easter_egg/anarchist_tarpit.py",
+      "sha256": "13978bf0f94a33833c4f661c8a1a09fa60ed48dd0d93fcd67ea47b2e9fab6f2f"
+    },
+    {
+      "path": "branches/anarchist/easter_egg/metadata.yaml",
+      "sha256": "7a204ecce7024828e355b273bc302a8d9b995ee2ffd6e6e9920f3d86c6bd7741"
+    },
+    {
+      "path": "branches/anarchist/profile-card.yaml",
+      "sha256": "56942048babe4d90b9bf51e0e899b360eddcfb781d9d0c76d8d7064f94ddb9d5"
+    },
+    {
+      "path": "branches/anarchist/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/buddhism/CONTRIBUTING.md",
+      "sha256": "31ed2a49da438783b0afe105d139797b87d0311c92c261e6df330a880faa69a8"
+    },
+    {
+      "path": "branches/buddhism/README.md",
+      "sha256": "4d08454a73e040710095724d88681ef63a66c94db2616883c453f87bc3133ac8"
+    },
+    {
+      "path": "branches/buddhism/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/buddhism/branch-governance.yaml",
+      "sha256": "9df453b2bece531e8bbf97bac63ea511a815be00bafe8f1bc8c0b332ed527605"
+    },
+    {
+      "path": "branches/buddhism/profile-card.yaml",
+      "sha256": "5d3c9d681589c40705757cb36b3ebf0620640dbd8c03f2a9678bfa776b4520bf"
+    },
+    {
+      "path": "branches/buddhism/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/christianity/catholic/CONTRIBUTING.md",
+      "sha256": "e54279bfe3a84b4755c19dc167745f6f9e866ef8dfd3e7c6ac0edfa251774d04"
+    },
+    {
+      "path": "branches/christianity/catholic/README.md",
+      "sha256": "3da7906638192141efd8f0789e7df4996580ede6ab6d3504290c45d449bfb469"
+    },
+    {
+      "path": "branches/christianity/catholic/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/christianity/catholic/branch-governance.yaml",
+      "sha256": "22e5c77d7da17cc23bf2174c4d835113a9f8e9df51f9b515ffe7c6a3bc1928e6"
+    },
+    {
+      "path": "branches/christianity/catholic/profile-card.yaml",
+      "sha256": "df0eada83e546b80224cb7d996c138f779547a6987a4a1afcd0a819d97218572"
+    },
+    {
+      "path": "branches/christianity/catholic/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/christianity/eastern-orthodox/CONTRIBUTING.md",
+      "sha256": "78bf86d203629394f1a543003ce0b849ec9290c28316268faa68c5051fc8a480"
+    },
+    {
+      "path": "branches/christianity/eastern-orthodox/README.md",
+      "sha256": "3c8386f43476d95afa2c4866d6271de752436d6b9c48be9e0158d0682d7d25b8"
+    },
+    {
+      "path": "branches/christianity/eastern-orthodox/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/christianity/eastern-orthodox/branch-governance.yaml",
+      "sha256": "175c3b846fc525abeb4af94f3879dcb9669734e7ecdc99a3c7ed5bc6ba2a6d2f"
+    },
+    {
+      "path": "branches/christianity/eastern-orthodox/profile-card.yaml",
+      "sha256": "274dc71596fdfd32af05a457f0321f146d6205f32f84088ef92ea978e4142338"
+    },
+    {
+      "path": "branches/christianity/eastern-orthodox/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/christianity/protestant-evangelical/CONTRIBUTING.md",
+      "sha256": "baadde17de9252fbca303529bc2c1157316ff4497e487f8bcbb53dea188f051a"
+    },
+    {
+      "path": "branches/christianity/protestant-evangelical/README.md",
+      "sha256": "f619fe4ceaa34f2f5900ae080083a8a0e0fa9ca2874e6a194e3c524e6cc3682c"
+    },
+    {
+      "path": "branches/christianity/protestant-evangelical/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/christianity/protestant-evangelical/branch-governance.yaml",
+      "sha256": "c45e56ce50c60132b04f8c9c679f490175a074739c6f10feeaf3be970c57d1ee"
+    },
+    {
+      "path": "branches/christianity/protestant-evangelical/profile-card.yaml",
+      "sha256": "e0fa4765bfccc231a244900665ca2925263808d8e2b04d3d0d52fd9246165fb1"
+    },
+    {
+      "path": "branches/christianity/protestant-evangelical/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/hinduism/vedanta/CONTRIBUTING.md",
+      "sha256": "22dd032d826ebb22fc6111fd6a3d5408a6cf814a249ed966aa437409075eed75"
+    },
+    {
+      "path": "branches/hinduism/vedanta/README.md",
+      "sha256": "4c02cf49bf75d517ebfbf5cc1eb6fb29261fb977d827e677e1e6249c03df02c9"
+    },
+    {
+      "path": "branches/hinduism/vedanta/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/hinduism/vedanta/branch-governance.yaml",
+      "sha256": "87c7a0c05544e8f1a2101a70b8597d5ee66d9d3fffaccd90edfd4beb09374151"
+    },
+    {
+      "path": "branches/hinduism/vedanta/profile-card.yaml",
+      "sha256": "ac97d465a7519098ef74f6218778fcf213df2c8eca193613b6cc737b6d9ae4bb"
+    },
+    {
+      "path": "branches/hinduism/vedanta/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/islam/shia/CONTRIBUTING.md",
+      "sha256": "629aa803f3b7075f06a38bacf78277889a4cd314695ced2a0f7a90a16155a450"
+    },
+    {
+      "path": "branches/islam/shia/README.md",
+      "sha256": "3d0e994036a48c183be897b7e2bde58cf70524ebe6f214589893188c929edd55"
+    },
+    {
+      "path": "branches/islam/shia/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/islam/shia/branch-governance.yaml",
+      "sha256": "28ec181f07254e632e97f67c2e14b7c4bc063b169886b8d354b9ecd68a8b9742"
+    },
+    {
+      "path": "branches/islam/shia/profile-card.yaml",
+      "sha256": "c2aa8e9099b7416186b75226673b6364420de66b94aed2dbf3c7688dee8636e1"
+    },
+    {
+      "path": "branches/islam/shia/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/islam/sunni/CONTRIBUTING.md",
+      "sha256": "a098baa77c5bc3fea432beb3ea6704e22bd74669a26b3415725b095edcd10ab7"
+    },
+    {
+      "path": "branches/islam/sunni/README.md",
+      "sha256": "8c3683233f213b4c4486af0855527402b35a07f28f31254d428979f97d6865bc"
+    },
+    {
+      "path": "branches/islam/sunni/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/islam/sunni/branch-governance.yaml",
+      "sha256": "f8ee122eacd26eba72956f1cc547cb332b9d84d06354385e34efe0a7bd5b83d7"
+    },
+    {
+      "path": "branches/islam/sunni/profile-card.yaml",
+      "sha256": "0ab9be74c2932ab54712aabf1f145a403272c17cbcff5734c7136a2056eb3e73"
+    },
+    {
+      "path": "branches/islam/sunni/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/judaism/orthodox/CONTRIBUTING.md",
+      "sha256": "40e8d7c7f8ef7c3aa37ca90f71680ae5f22e75fe88764c93cf4d48cf587a92e2"
+    },
+    {
+      "path": "branches/judaism/orthodox/README.md",
+      "sha256": "109adec39a688882d41e084a5587c75c2deca9cb3d0e1d2a7b1c4ffb6bf5b62a"
+    },
+    {
+      "path": "branches/judaism/orthodox/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/judaism/orthodox/branch-governance.yaml",
+      "sha256": "0a7dec8e7916c1cd3a541a8217e76b4f8db37a64ec1dd9aa7c2bbba3e8f7665f"
+    },
+    {
+      "path": "branches/judaism/orthodox/profile-card.yaml",
+      "sha256": "a178a667f6ea5060cffc24b7b4467d7dbf2e296830d262d7d025059a29102b1a"
+    },
+    {
+      "path": "branches/judaism/orthodox/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/logos-bridge/CONTRIBUTING.md",
+      "sha256": "2a29febb188f1ba915cfaf0ce38232e962e6859cbcb8cef9a537c9f5537c2c97"
+    },
+    {
+      "path": "branches/logos-bridge/README.md",
+      "sha256": "a64311f46a8734e51b23e2f51898aa9360fbc5426fd1b744fab5e6f63cc590dd"
+    },
+    {
+      "path": "branches/logos-bridge/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/logos-bridge/branch-governance.yaml",
+      "sha256": "6594e956edc38f3e56c2a701197470bc9b609522e4e7ddd5857da432ecb4487f"
+    },
+    {
+      "path": "branches/logos-bridge/profile-card.yaml",
+      "sha256": "b8fc7e9932e16b6f306cd07571e5873705ec6e25717b8a33059800ea059af957"
+    },
+    {
+      "path": "branches/logos-bridge/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "branches/secular-naturalism/CONTRIBUTING.md",
+      "sha256": "8f9825ee6ad04fbc0de292159db7fab3e84fde3bed87e10b0861b7dbaf0e97a2"
+    },
+    {
+      "path": "branches/secular-naturalism/README.md",
+      "sha256": "ccc3907f17aae2a030a5879048ba5ace0a2ed5eaabc64126f7be2d944ac8b619"
+    },
+    {
+      "path": "branches/secular-naturalism/audit/README.md",
+      "sha256": "43f3751cfeaff85391760aa0539101ee87977a9fa24275d434c8523c2f9e2bf7"
+    },
+    {
+      "path": "branches/secular-naturalism/branch-governance.yaml",
+      "sha256": "22ac2da3ee27d4f684bbe3c19ea31dfbba5a19da74650f9b2f99feb184603827"
+    },
+    {
+      "path": "branches/secular-naturalism/profile-card.yaml",
+      "sha256": "ebc0506b92e44798729e8da33f4458fe98e068013346189286e44c2eda4e779b"
+    },
+    {
+      "path": "branches/secular-naturalism/proposals/README.md",
+      "sha256": "b6c2cc6f1f89cc777c2135bc4406c8626c8d0bc2a3c63499a986641a6c866417"
+    },
+    {
+      "path": "data/community/README.md",
+      "sha256": "f2b5717d314fc869387a7a2ff24abe46b5e12460e5482663577a3ebc68ea0e29"
+    },
+    {
+      "path": "data/core/README.md",
+      "sha256": "622c399f245461528e6ef4fd5bb4cfcdac5a1d59daac7a23d92f41be5be48afe"
+    },
+    {
+      "path": "data/curated/README.md",
+      "sha256": "9076e2ac3a1c45920632dda134432e3e1f9a8e4656872327ed075190ed4dc5ee"
+    },
+    {
+      "path": "data/deprecated/README.md",
+      "sha256": "2b8be4c50383af7462da87edca86954f74b30943cec7452e9b8200bf9b4523a5"
+    },
+    {
+      "path": "data/logos_approved/README.md",
+      "sha256": "6bd6886335d4ad848b82deddce1ff867cd65b4f75d4ff697509f9a8cb75dfab3"
+    },
+    {
+      "path": "data/quarantine/README.md",
+      "sha256": "d253b3939bb491fd698a0305d4c7f11d9b672829615870c281e3991405d30f16"
+    },
+    {
+      "path": "data/removed/README.md",
+      "sha256": "cfaf76b817f4e0a289695983e0e74341f0ba11a00c515cf719ba794e540b560d"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "234cc4b96bbbe553811bb85433a4c3eed9001a84103565f841a8a8adf0e75fe5"
+    },
+    {
+      "path": "docs/AUDIT_MODEL.md",
+      "sha256": "fd9eb4e64e45325ea7cd60b718cfdec7ca1bb1b75426b57c24510204344e4e02"
+    },
+    {
+      "path": "docs/BRANCH_BUILDER_GUIDE.md",
+      "sha256": "72cf14b9871e4eb8a1868ab5624659da968d3f26cbb5baaa2dddb5d03eaed4b1"
+    },
+    {
+      "path": "docs/ENTRYPOINT_AND_ENDPOINT_MAP.md",
+      "sha256": "1d242b032e3c66e00f4fe5f3a9dbeb208348f4f9c5013273555fb9525c76464a"
+    },
+    {
+      "path": "docs/REFERENCE_SOURCES.md",
+      "sha256": "eef587ae28631f7dab27594a98a31be999e6088790b3af659d63507350ed4e79"
+    },
+    {
+      "path": "docs/RELIGION_BRANCH_CONTRIBUTION_GUIDE.md",
+      "sha256": "57a51b67da5161c83654937fe09d1fba24d66c044d4128489535fec32d6ead2e"
+    },
+    {
+      "path": "docs/SAFE_SUB_BUILDER_PROTOCOL.md",
+      "sha256": "dbbd36ef4b0d4c87114c312dd8bed6fc5979e5fa11cb8d0c017cf0d76f63a2f1"
+    },
+    {
+      "path": "governance/BAD_ACTOR_HARDENING.md",
+      "sha256": "5440d86d20fbbb4c240dd85aa85cff86b2a630a917b4d8d339241f545aec7949"
+    },
+    {
+      "path": "governance/BRANCH_AUTHORITY_ESCALATION_POLICY.md",
+      "sha256": "b8fc6201aaab69d11ff9fc98b267920e1ea30c137efed45e94176ebf2ac9b939"
+    },
+    {
+      "path": "governance/BRANCH_GOVERNANCE_POLICY.md",
+      "sha256": "0ca79c6dd510e4edb73449f0af1c34afc09be163ff1a61c7908673e9d9155753"
+    },
+    {
+      "path": "governance/CONTRIBUTOR_REVIEW_POLICY.md",
+      "sha256": "93c991d65cb071157299081b3cd9ca5a4df55c7ee89632e4dd88176652f99620"
+    },
+    {
+      "path": "governance/FAITHFUL_REPRESENTATION_POLICY.md",
+      "sha256": "ddf3f4b308d282c1a9652420537dcf7127ae748fcf947f064c2e02e08b8412b7"
+    },
+    {
+      "path": "governance/NOESIS_CONSTITUTION.md",
+      "sha256": "8ee819d49608ad775539e529ae2d37388b4841dc7a75cbb218653a335571ce63"
+    },
+    {
+      "path": "governance/PROMOTION_DOWNGRADE_REMOVAL_POLICY.md",
+      "sha256": "14f32e50757dcea78c8b1d61cfcafa390a90f43ac52ea1654ed082426a4eb2a3"
+    },
+    {
+      "path": "governance/TRUTH_INTEGRITY_POLICY.md",
+      "sha256": "3c42a30afc22e06f294f83ea0349934c45470a4f6ee494b36437b6d678b95d11"
+    },
+    {
+      "path": "registry/audit-event-type-registry.json",
+      "sha256": "3b7ba02df404ec2b526bfc66fc6c1a6fbee256229ed98a58e29194462e945134"
+    },
+    {
+      "path": "registry/branch-governance-registry.json",
+      "sha256": "82f6ee581e6a484f6cdb9b474486c9c2160e53c44d023de086e4334b3d650790"
+    },
+    {
+      "path": "registry/contributor-role-registry.json",
+      "sha256": "51ecad019676aa8fc6e4db66375bb17260764d56fd888ff3b046a997a889813d"
+    },
+    {
+      "path": "registry/design-authority.json",
+      "sha256": "6307d074e8fb05b19b478e3f4987b8770e13d87e548ff92152c42eae9b5e1b49"
+    },
+    {
+      "path": "registry/lifecycle-registry.json",
+      "sha256": "0e9419e7af2dc9d47254d6af215f7a4447ab8bfca34ca8b88875f6aceee16fa1"
+    },
+    {
+      "path": "registry/logos-compatible-exports.json",
+      "sha256": "d12995212e1d00f22fce5074489a49e6a8ba83a54999962616eedb96c1d72989"
+    },
+    {
+      "path": "registry/route-registry.json",
+      "sha256": "416c2e9a136142c3f95ec048a7ad763634d7ac85be642ebdeb41cdaeec445b95"
+    },
+    {
+      "path": "registry/source-of-truth.json",
+      "sha256": "5d830bbed1699d3628c5452f9e87cb6a65e3e30f43d29351c0143d4ca77b6570"
+    },
+    {
+      "path": "registry/truth-mode-registry.json",
+      "sha256": "6b5130ec8502149729e8fcfd419459d80675ab6a1524b118c19c9a9e29ee470e"
+    },
+    {
+      "path": "schema/audit-log-event.schema.json",
+      "sha256": "f71f4bce6923045e4a94626ff39e38b6bf45cddd8108b10414abb22cf749ce17"
+    },
+    {
+      "path": "schema/authority-statement.schema.json",
+      "sha256": "5e88bb603d8ab0da8070709788287da05649f479068230a31c6c94df05c016ca"
+    },
+    {
+      "path": "schema/branch-governance-profile.schema.json",
+      "sha256": "4786ef9f30ba90e8b0f8d3d544fbab2aeaa5daff1e20bbc9c26ebcfa2be47ad8"
+    },
+    {
+      "path": "schema/contribution-pack.schema.json",
+      "sha256": "587f0726180a0ecc9d028a9d3d44a0fe6bfb0df9f6126c789838f752ae8eca3e"
+    },
+    {
+      "path": "schema/derivative-lineage.schema.json",
+      "sha256": "269e058fa39fe22f9a8a151d62dcff62d65cfff754a775e14e94965bbf63e2eb"
+    },
+    {
+      "path": "schema/logos-crosswalk.schema.json",
+      "sha256": "3849e0b47e5dac43867f69c86434764176ea6a8cfe4bf1cda0da20ade207fc7d"
+    },
+    {
+      "path": "schema/profile-card.schema.json",
+      "sha256": "3d7dad43ad1d10e60877b3320bea414f3895e72fd7de9d1da13c03122790608e"
+    },
+    {
+      "path": "schema/provenance-event.schema.json",
+      "sha256": "f6f55b3555e54e21ee81122d5a91a3ecf7f294588f76737b5ce94d5a1237faed"
+    },
+    {
+      "path": "schema/root-authority-artifact.schema.json",
+      "sha256": "bcbbf8b826e6f3758686e86d27af2a93b2e450c5ff8714489f451fa6b08f29f3"
+    },
+    {
+      "path": "scripts/append_audit_event.py",
+      "sha256": "c4b80efb2bf5d3c63e563dc10ffc050a82e681ff2826004a4795b04976299417"
+    },
+    {
+      "path": "scripts/scan_easter_eggs.py",
+      "sha256": "f7589ba97c0a21dc5719cb2b82afb9b56888e3fd9cca355fde475ebae5d24635"
+    },
+    {
+      "path": "scripts/validate_branch_profiles.py",
+      "sha256": "54b6018cfe119ca34de155b08f25c2aa9c77e9dcff0b990e68df9b3b8c5cd262"
+    },
+    {
+      "path": "scripts/validate_json_syntax.py",
+      "sha256": "73f041c564c4a5545e19e856895da579040c6a2d7525a535a68684ed42a1e757"
+    },
+    {
+      "path": "tests/test_anarchist_tarpit.py",
+      "sha256": "2abc28b952e5978de5951c84c0f82e495dc0337acb632f58ccf2eec506913e10"
+    }
+  ]
+}

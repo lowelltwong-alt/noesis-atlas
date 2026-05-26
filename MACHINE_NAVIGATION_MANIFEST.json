@@ -1,0 +1,78 @@
+{
+  "manifest_version": "0.1.0",
+  "project": "noesis-atlas",
+  "purpose": "Branch-governed worldview/philosophy/religion taxonomy control plane with Logos compatibility.",
+  "start_files": [
+    "AI_START_HERE.md",
+    "README.md",
+    "governance/NOESIS_CONSTITUTION.md",
+    "LOGOS_COMPATIBILITY.md",
+    "AUDITABILITY.md"
+  ],
+  "registries": {
+    "source_of_truth": "registry/source-of-truth.json",
+    "design_authority": "registry/design-authority.json",
+    "routes": "registry/route-registry.json",
+    "branch_governance": "registry/branch-governance-registry.json",
+    "lifecycle": "registry/lifecycle-registry.json",
+    "audit_events": "registry/audit-event-type-registry.json",
+    "logos_exports": "registry/logos-compatible-exports.json"
+  },
+  "schemas": {
+    "profile_card": "schema/profile-card.schema.json",
+    "branch_governance_profile": "schema/branch-governance-profile.schema.json",
+    "contribution_pack": "schema/contribution-pack.schema.json",
+    "authority_statement": "schema/authority-statement.schema.json",
+    "audit_log_event": "schema/audit-log-event.schema.json",
+    "logos_crosswalk": "schema/logos-crosswalk.schema.json"
+  },
+  "trust_zones": [
+    "core",
+    "curated",
+    "community",
+    "quarantine",
+    "deprecated",
+    "removed",
+    "logos_approved"
+  ],
+  "forbidden_default_paths_for_ai_promotion": [
+    "data/core",
+    "data/logos_approved",
+    "registry",
+    "schema",
+    "governance"
+  ],
+  "safe_ai_output_paths": [
+    "data/quarantine",
+    "branches/*/proposals"
+  ],
+  "entrypoints": {
+    "branch_builder": "docs/BRANCH_BUILDER_GUIDE.md",
+    "sub_builder": "docs/SAFE_SUB_BUILDER_PROTOCOL.md",
+    "religion_contribution": "docs/RELIGION_BRANCH_CONTRIBUTION_GUIDE.md",
+    "logos_adapter": "LOGOS_COMPATIBILITY.md",
+    "audit": "AUDITABILITY.md"
+  },
+  "new_capabilities": [
+    {
+      "id": "branch_tree_atlas",
+      "path": "docs/BRANCH_TREE_ATLAS.md",
+      "purpose": "human-visible tree maps for major routes and religions"
+    },
+    {
+      "id": "coherence_policy",
+      "path": "governance/COHERENCE_POLICY.md",
+      "purpose": "internal/external coherence rule and scoring bands"
+    },
+    {
+      "id": "coherence_scoring_model",
+      "path": "docs/COHERENCE_SCORING_MODEL.md",
+      "purpose": "explains how coherence is graded"
+    },
+    {
+      "id": "route_tree_registry",
+      "path": "registry/route-tree-registry.json",
+      "purpose": "machine map of route tree files"
+    }
+  ]
+}
