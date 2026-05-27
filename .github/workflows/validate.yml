@@ -1,0 +1,50 @@
+name: Noesis Validation
+
+on:
+  pull_request:
+    branches: ["main"]
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validators, manifest integrity, and tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python3 -m pip install --upgrade pip pyyaml pytest
+
+      # Hard gate: declared map must match the tree. Catches partial exports,
+      # bad zips, and interrupted branch builds before they reach main.
+      - name: Manifest integrity
+        run: python3 scripts/validate_manifest_integrity.py
+
+      - name: JSON syntax
+        run: python3 scripts/validate_json_syntax.py
+
+      - name: Branch profiles
+        run: python3 scripts/validate_branch_profiles.py
+
+      - name: Route trees
+        run: python3 scripts/validate_route_trees.py
+
+      - name: Coherence reports
+        run: python3 scripts/validate_coherence_reports.py
+
+      - name: Easter-egg safety scan
+        run: python3 scripts/scan_easter_eggs.py
+
+      - name: Logos export safety (Noesis may inform Logos, never govern it)
+        run: python3 scripts/validate_logos_export_safety.py
+
+      - name: Unit tests
+        run: python3 -m pytest tests/ -q

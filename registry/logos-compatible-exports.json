@@ -5,6 +5,8 @@
   "rules": [
     "No Logos export without logos_reviewer approval",
     "No quarantine source in Logos export",
-    "No AI religion operational claim in Logos export without high-risk review"
+    "No AI religion operational claim in Logos export without high-risk review",
+    "Every export must declare authority_over_logos: none — Noesis may inform Logos but never govern it",
+    "No export may assert authority, gating, veto, or promotion power over any Logos artifact"
   ]
 }

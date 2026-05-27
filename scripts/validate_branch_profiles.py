@@ -3,7 +3,9 @@ from pathlib import Path
 
 required = ['README.md', 'profile-card.yaml', 'branch-governance.yaml', 'CONTRIBUTING.md']
 errors = []
+scanned = 0
 for profile in Path('branches').rglob('profile-card.yaml'):
+    scanned += 1
     branch_dir = profile.parent
     for name in required:
         if not (branch_dir / name).exists():
@@ -16,4 +18,4 @@ for profile in Path('branches').rglob('profile-card.yaml'):
 if errors:
     print('\n'.join(errors))
     raise SystemExit(1)
-print('Branch profiles OK')
+print(f'Branch profiles OK ({scanned} profile-card.yaml scanned)')
